@@ -1,2 +1,2 @@
 # diff-drive-robot-control
-2 wheel differential mobile robot controlled using teleop keyboard
+2 wheeled differential drive mobile robot controlled using teleop in Gazebo
