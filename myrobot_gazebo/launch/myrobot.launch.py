@@ -26,7 +26,7 @@ def generate_launch_description():
         executable='robot_state_publisher',
         output='screen',
         parameters=[{'robot_description': robot_description_raw,
-        'use_sim_time': True}] 
+        'use_sim_time': True}])
  
     gazebo = ExecuteProcess(
     cmd=['ign', 'gazebo', world_path, '--verbose', '-r'],
