@@ -1,8 +1,10 @@
+<?xml version='1.0'?>
+
 <!-- Robot URDF model adapted from:
   Original source: https://github.com/osrf/rosbook/blob/master/code/tortoisebot/tortoisebot.urdf
   Credit: OSRF ROS Book - TortoiseBot
 -->
-<?xml version='1.0'?>
+
 <robot name="myrobot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 <xacro:include filename="$(find myrobot_gazebo)/urdf/myrobot.gazebo" />
 
