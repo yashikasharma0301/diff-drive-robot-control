@@ -1,6 +1,8 @@
 # Differential Drive Robot Control in ROS 2
 
-[This project](https://youtu.be/SgQI-Ug09Po) demonstrates the creation of a differential drive robot simulation in ROS 2. It includes a `myrobot_description` package to load and visualize the robot in RViz, and a separate `myrobot_gazebo` package with an empty world to spawn the robot in Gazebo. The project integrates velocity command plugins (`/cmd_vel`) and enables robot control using the `teleop_twist_keyboard` package to verify movement in the simulated environment.
+This project demonstrates the creation of a differential drive robot simulation in ROS 2. It includes a `myrobot_description` package to load and visualize the robot in RViz, and a separate `myrobot_gazebo` package with an empty world to spawn the robot in Gazebo. The project integrates velocity command plugins (`/cmd_vel`) and enables robot control using the `teleop_twist_keyboard` package to verify movement in the simulated environment. 
+
+Click [here](https://youtu.be/SgQI-Ug09Po) to watch the simulation.
 
 ## System Requirements
 
