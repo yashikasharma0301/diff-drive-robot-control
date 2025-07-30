@@ -24,7 +24,7 @@ if(BUILD_TESTING)
 endif()
 
 install(DIRECTORY urdf/
-  DESTINATION share/${PROJECT_NAME}/urdf
+  DESTINATION share/${PROJECT_NAME}/
 )
 
 install(DIRECTORY
@@ -33,7 +33,7 @@ install(DIRECTORY
 )
 
 install(DIRECTORY rviz/
-  DESTINATION share/${PROJECT_NAME}/rviz
+  DESTINATION share/${PROJECT_NAME}/
 )
 
 ament_package()
