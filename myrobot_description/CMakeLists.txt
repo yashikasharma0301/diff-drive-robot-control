@@ -33,7 +33,7 @@ install(DIRECTORY
 )
 
 install(DIRECTORY rviz/
-  DESTINATION share/${PROJECT_NAME}/
+  DESTINATION share/${PROJECT_NAME}/rviz
 )
 
 ament_package()
