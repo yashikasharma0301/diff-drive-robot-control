@@ -12,7 +12,7 @@ def generate_launch_description():
 
     pkg_name = 'myrobot_description'
     this_pkg = 'myrobot_gazebo'
-    file_subpath = 'urdf/myrobot.xacro'
+    file_subpath = 'myrobot.xacro'
     world_file_name='empty_world.sdf'
     world_path = os.path.join(get_package_share_directory(this_pkg),
     'worlds',
