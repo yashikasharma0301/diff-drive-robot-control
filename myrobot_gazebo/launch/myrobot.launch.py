@@ -12,12 +12,12 @@ def generate_launch_description():
 
     pkg_name = 'myrobot_description'
     this_pkg = 'myrobot_gazebo'
-    file_subpath = 'myrobot.xacro'
+    file_name = 'myrobot.xacro'
     world_file_name='empty_world.sdf'
-    world_path = os.path.join(get_package_share_directory(this_pkg),
+    world_path = os.path.join(get_package_share_directory(this_pkg), 'worlds'
     world_file_name)
   
-    xacro_file = os.path.join(get_package_share_directory(pkg_name),file_subpath)
+    xacro_file = os.path.join(get_package_share_directory(pkg_name),'urdf', file_name)
     robot_description_raw = xacro.process_file(xacro_file).toxml()
 
     node_robot_state_publisher = Node(
