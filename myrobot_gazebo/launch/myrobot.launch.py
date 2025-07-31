@@ -15,7 +15,6 @@ def generate_launch_description():
     file_subpath = 'myrobot.xacro'
     world_file_name='empty_world.sdf'
     world_path = os.path.join(get_package_share_directory(this_pkg),
-    'worlds',
     world_file_name)
   
     xacro_file = os.path.join(get_package_share_directory(pkg_name),file_subpath)
