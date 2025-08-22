@@ -30,7 +30,7 @@ sudo apt install ros-humble-robot-state-publisher \
 1. **Create Workspace and Clone Repository**
 ```bash
 mkdir -p my_ws/src && cd my_ws/src
-git clone https://github.com/yashikasharma0301/diff-drive-robot-control.git .
+git clone https://github.com/yashikasharma0301/diff_drive_robot_control.git .
 ```
 
 2. **Build the Workspace**
