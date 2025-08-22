@@ -60,6 +60,7 @@ Source the workspace again if opening a new terminal and run:
 ```bash
 ros2 launch myrobot_gazebo myrobot.launch.py
 ```
+NOTE: If using Gazebo Harmonic, just change the gazebo launch command in launch file to "cmd=['gz', 'sim', world_path, '--verbose', '-r'],"
 
 3. **Control the Robot**
 
